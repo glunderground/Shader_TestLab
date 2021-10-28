@@ -1,0 +1,1195 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16258 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/hoang2.nguyenminh/Documents/GitHub/Test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52746
+Successfully changed project path to: C:/Users/hoang2.nguyenminh/Documents/GitHub/Test
+C:/Users/hoang2.nguyenminh/Documents/GitHub/Test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 63.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hoang2.nguyenminh/Documents/GitHub/Test/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001838 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2255 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.2 MB.
+System memory in use after: 94.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 2.238800 ms (FindLiveObjects: 0.198000 ms CreateObjectMapping: 0.085300 ms MarkObjects: 1.848200 ms  DeleteObjects: 0.106200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Art/shader/Textures/download.jfif
+  artifactKey: Guid(e2513ee60a2794a4e92603903a7c7a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Textures/download.jfif using Guid(e2513ee60a2794a4e92603903a7c7a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1b0025cc1cff9fd0f780aca8554c80') in 0.064666 seconds 
+  Import took 0.070951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.873611 seconds.
+  path: Assets/Art/shader/Textures/voronoi.png
+  artifactKey: Guid(213a1e03368dbea41a04013cb13dbb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Textures/voronoi.png using Guid(213a1e03368dbea41a04013cb13dbb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adda0d7e7a6c4f3a7d0f715d987dcfc2') in 0.040246 seconds 
+  Import took 0.044612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.748727 seconds.
+  path: Assets/Art/shader/Textures/voronoi.png
+  artifactKey: Guid(213a1e03368dbea41a04013cb13dbb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Textures/voronoi.png using Guid(213a1e03368dbea41a04013cb13dbb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736b44242984ec5fc9922e46efbb8761') in 0.051187 seconds 
+  Import took 0.055624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 225.822607 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed55e8e3caa83a610add3e2ae404782') in 0.004893 seconds 
+  Import took 0.009962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.857312 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8590d64d8bd51a88fd3f8233a255da') in 0.002457 seconds 
+  Import took 0.011772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001240 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8590d64d8bd51a88fd3f8233a255da') in 0.002078 seconds 
+  Import took 0.005692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.793760 seconds.
+  path: Assets/Art/shader/New Material.mat
+  artifactKey: Guid(ee8b569016ddf4646ae47021cd173f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/New Material.mat using Guid(ee8b569016ddf4646ae47021cd173f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7778f2db1e269a55d362b7f5a3b1ec0f') in 0.051964 seconds 
+  Import took 0.056382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 417.316300 seconds.
+  path: Assets/Art/shader/Udemy_Excercises
+  artifactKey: Guid(1de1e9413ce3dab4baebe9d26dc4e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises using Guid(1de1e9413ce3dab4baebe9d26dc4e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccb9b94dadd970f41dc4af89016df3b') in 0.003227 seconds 
+  Import took 0.009218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.574286 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636169411c7330d3e815fa9a380a394f') in 0.004934 seconds 
+  Import took 0.010226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2614.001291 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/U_Chal1.mat
+  artifactKey: Guid(80686cfae21051642861fed6d1fa2dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/U_Chal1.mat using Guid(80686cfae21051642861fed6d1fa2dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a138e8b5fa4376ea459c03c18b87fe') in 0.028618 seconds 
+  Import took 0.037791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.439755 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb65dfdba81511627f67b38d21a1aff5') in 0.003050 seconds 
+  Import took 0.008682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002770 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb65dfdba81511627f67b38d21a1aff5') in 0.003056 seconds 
+  Import took 0.007366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.788761 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d48f2a4f05854446503faf0d50cd0a') in 0.002704 seconds 
+  Import took 0.012507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d48f2a4f05854446503faf0d50cd0a') in 0.002603 seconds 
+  Import took 0.006633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.192702 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f578228d80c3b917486fde46701a3880') in 0.002937 seconds 
+  Import took 0.012793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000996 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f578228d80c3b917486fde46701a3880') in 0.003706 seconds 
+  Import took 0.008571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.204921 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7a0e24aed0c105317a0c71eae89698') in 0.003215 seconds 
+  Import took 0.007834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.795373 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28113f5e957d0bcce9aeb9f15887fcb0') in 0.002747 seconds 
+  Import took 0.007373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.808935 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b8f21f7d505082c69fbebeb38ac128') in 0.005646 seconds 
+  Import took 0.009662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.662914 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3273e645b6e3416b6af17791aabd02') in 0.005328 seconds 
+  Import took 0.011966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001011 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3273e645b6e3416b6af17791aabd02') in 0.004641 seconds 
+  Import took 0.008726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.555305 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d661c49271ff0d7d8ef83f4cadc7d8') in 0.004691 seconds 
+  Import took 0.009669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.877815 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b92a919352ad169980e04f7e4cbcaa') in 0.002371 seconds 
+  Import took 0.006581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.560506 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50d8a7cc54b9cbe7304c9d85d8601e0') in 0.003794 seconds 
+  Import took 0.014814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001494 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50d8a7cc54b9cbe7304c9d85d8601e0') in 0.003802 seconds 
+  Import took 0.008374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.695193 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b3ad348ce22778c629480c320b3026') in 0.004404 seconds 
+  Import took 0.013617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001034 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b3ad348ce22778c629480c320b3026') in 0.005989 seconds 
+  Import took 0.010619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.558459 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2e4f5474b3772e229885b200c9b846') in 0.003975 seconds 
+  Import took 0.013542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001166 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2e4f5474b3772e229885b200c9b846') in 0.003585 seconds 
+  Import took 0.007514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.346089 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffc75c277d23226e3f133c2504011dc') in 0.003691 seconds 
+  Import took 0.013399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001149 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffc75c277d23226e3f133c2504011dc') in 0.003838 seconds 
+  Import took 0.008223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.148657 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ddca12fcb4ea468014701c81a9b3af') in 0.004051 seconds 
+  Import took 0.009482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.855347 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb691cb338adf1dbb5fa2d77962ec957') in 0.004314 seconds 
+  Import took 0.009389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.969603 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3a7f71950448f8a4dd8800a4092592') in 0.005520 seconds 
+  Import took 0.015927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000886 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3a7f71950448f8a4dd8800a4092592') in 0.004564 seconds 
+  Import took 0.009916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.109356 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66aa982cedf09ef20a0ff250e2e40ef6') in 0.003600 seconds 
+  Import took 0.007517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.416711 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2441b4e8a312f7690c70624a5a3241') in 0.002283 seconds 
+  Import took 0.007073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.666204 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/NewUnlitShader.shader
+  artifactKey: Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/NewUnlitShader.shader using Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98aff7d8f1acbbd497242e59120e9315') in 0.003486 seconds 
+  Import took 0.007741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.122126 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/NewUnlitShader.shader
+  artifactKey: Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/NewUnlitShader.shader using Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54e7c0bfa08218d0ef08dcde5341362') in 0.004346 seconds 
+  Import took 0.009557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.700859 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/HoangClone_CrashClash_ShaderSHD_Collect.shader
+  artifactKey: Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/HoangClone_CrashClash_ShaderSHD_Collect.shader using Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440a10ba56c7142f1cf6b5c69c88c5e7') in 0.004782 seconds 
+  Import took 0.010198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.074777 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Envi.shader
+  artifactKey: Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Envi.shader using Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7488e8dc1fd4a9969ccaab1c03b4079') in 0.004887 seconds 
+  Import took 0.011275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.513032 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Envi.shader
+  artifactKey: Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Envi.shader using Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f412f222e09608c4f0409b89110de0a') in 0.004302 seconds 
+  Import took 0.008759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.859853 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Envi.mat
+  artifactKey: Guid(bc81503f0ade8fa428fe538559c57980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Envi.mat using Guid(bc81503f0ade8fa428fe538559c57980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f447050333b3a369ba31175ed5f138') in 0.012390 seconds 
+  Import took 0.018002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57243.250599 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Envi.shader
+  artifactKey: Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Envi.shader using Guid(fef90e08e9a18154cae620b3dcd81704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e15e96253345a68df4698e51452317e') in 0.009080 seconds 
+  Import took 0.017472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2469.100512 seconds.
+  path: Assets/Art/shader/SHD_ENV.shadergraph
+  artifactKey: Guid(31d596dccbd5d544eb454d50cb5a3de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/SHD_ENV.shadergraph using Guid(31d596dccbd5d544eb454d50cb5a3de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7964d09992d472c41c020f7462479387') in 0.017321 seconds 
+  Import took 0.047555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.154665 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Player.shadergraph
+  artifactKey: Guid(cd95a358bffe5cd49a985f5c65ca223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Player.shadergraph using Guid(cd95a358bffe5cd49a985f5c65ca223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d3b675a9b5454413f994a36b4a8962') in 0.003178 seconds 
+  Import took 0.007532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.750088 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Road.shadergraph
+  artifactKey: Guid(0004b4b54a038224eb19ae5325754b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Road.shadergraph using Guid(0004b4b54a038224eb19ae5325754b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cb9c4a20e35611234697c071b92766') in 0.003217 seconds 
+  Import took 0.012509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Road.shadergraph
+  artifactKey: Guid(0004b4b54a038224eb19ae5325754b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Road.shadergraph using Guid(0004b4b54a038224eb19ae5325754b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cb9c4a20e35611234697c071b92766') in 0.003226 seconds 
+  Import took 0.007682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5523.699466 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader
+  artifactKey: Guid(e5d10e637de331a448fabafc845e0754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader using Guid(e5d10e637de331a448fabafc845e0754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526116337e1eece13feaf51c88fd50c7') in 0.004174 seconds 
+  Import took 0.033690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.836323 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded9f4b13190358145ececcccb8a2a20') in 0.009039 seconds 
+  Import took 0.013051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6313.211787 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4448df7d8973aef02efc28b4fce85c') in 0.005057 seconds 
+  Import took 0.014762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037733 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/PropertiesChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033caa8b557c5de6d53029d6518ab3fe') in 0.007326 seconds 
+  Import took 0.013994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.722123 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c58fa6e7428acb61fd34daf2e65f45b') in 0.004077 seconds 
+  Import took 0.010724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.210760 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e06d6a8d05ac23985fb2d72072b9f3') in 0.004157 seconds 
+  Import took 0.012379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.766922 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25edac58e6838c2369cb2e1a58450b8c') in 0.006876 seconds 
+  Import took 0.013765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 361.042975 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7072a6d4d1c5a0573246840a5e0cdc') in 0.004951 seconds 
+  Import took 0.010833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.954666 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a9fc9393da94ec921e169e6d2aec3f') in 0.005300 seconds 
+  Import took 0.012160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.621781 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicLambert.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicLambert.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996d7446b3087e3098f4dcf638ca4491') in 0.005316 seconds 
+  Import took 0.011181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 275.726951 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader
+  artifactKey: Guid(2d8c35ddb98843540823ad35c493b11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/NewUnlitShader.shader using Guid(2d8c35ddb98843540823ad35c493b11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b6c8e3627d0ffce44059e1eed8d18e') in 0.004826 seconds 
+  Import took 0.010230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.870207 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicLambert.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicLambert.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f9024548f90be46b38fe763566d74f') in 0.006090 seconds 
+  Import took 0.012782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.109853 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicLambert.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicLambert.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4241e6e6de9250117f2084db207aba3') in 0.006266 seconds 
+  Import took 0.012724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.082205 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicLambert 1.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicLambert 1.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72e7dc0f1f8b760ab6a2ee193b24c8b') in 0.010942 seconds 
+  Import took 0.016286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.898459 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70556b3780a2cfb49b0d4f7610e047d6') in 0.007180 seconds 
+  Import took 0.013477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.472076 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3aafe12d1b0dd54b3ddc578e8d59732') in 0.005583 seconds 
+  Import took 0.013065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.911544 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf3f5ca154172ad068369d02eec180b') in 0.004663 seconds 
+  Import took 0.013317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 409.932850 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47110ddec7ba93303aac0b2b563229f8') in 0.004826 seconds 
+  Import took 0.014761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47110ddec7ba93303aac0b2b563229f8') in 0.004316 seconds 
+  Import took 0.008439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.239785 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a876d41e3482a8156181a61503977b') in 0.005215 seconds 
+  Import took 0.011206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.966207 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39191061fe2b3f5575ed58f787b19d0') in 0.004548 seconds 
+  Import took 0.010149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.124483 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fc8298d0d781ec8891b58944c0cfc2') in 0.004251 seconds 
+  Import took 0.010798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.485459 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicP.shader
+  artifactKey: Guid(dabef5d37e458ac439ec9d1d03d69781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicP.shader using Guid(dabef5d37e458ac439ec9d1d03d69781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8537167a03cf25ca0eec4a95587cd9') in 0.010724 seconds 
+  Import took 0.015802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001033 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicP.shader
+  artifactKey: Guid(dabef5d37e458ac439ec9d1d03d69781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicP.shader using Guid(dabef5d37e458ac439ec9d1d03d69781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8537167a03cf25ca0eec4a95587cd9') in 0.005122 seconds 
+  Import took 0.010233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 439.129136 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ae059c9f139996199e61a9a87fabcc') in 0.005145 seconds 
+  Import took 0.012022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.488203 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88842f60d3281566ced7e17a1d540748') in 0.004481 seconds 
+  Import took 0.011339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.657486 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/Surface_BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/Surface_BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5256cf74c145cf4122514304c672f8fa') in 0.005554 seconds 
+  Import took 0.011341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.500124 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/Surface_BasicLambert.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/Surface_BasicLambert.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d758dd61425ce66624a173f2cdabb5') in 0.005077 seconds 
+  Import took 0.011833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.579300 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/UdemyChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/UdemyChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9131c7859b1a6cc06b496404e2bdc3a9') in 0.004489 seconds 
+  Import took 0.010652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.891397 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/UdemyChallenge1.shader
+  artifactKey: Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/UdemyChallenge1.shader using Guid(9832e0dc61b163f43951b9df2469950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a305f9665fb895a5ea246b305c81f460') in 0.004938 seconds 
+  Import took 0.012296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.309354 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/Surface_BasicLambert.shader
+  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Light Illumination Shader/Surface_BasicLambert.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fdf69e3c86fd9a7e78350cc4673fb0') in 0.004496 seconds 
+  Import took 0.010419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 853.527564 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Basic Shader
+  artifactKey: Guid(d9727795be3d2b449b0ceecedc9c7f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Basic Shader using Guid(d9727795be3d2b449b0ceecedc9c7f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86473802e51c2a7ee82ee5062bcad8ce') in 0.003909 seconds 
+  Import took 0.010118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 377.378562 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8814ec64d7d43279457391ebfc326ab') in 0.003026 seconds 
+  Import took 0.012835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002703 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8814ec64d7d43279457391ebfc326ab') in 0.002400 seconds 
+  Import took 0.007020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.559547 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c68d3e09a1d030f7659454b15978a8d') in 0.002797 seconds 
+  Import took 0.009312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.600737 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Win 1.shadergraph
+  artifactKey: Guid(a6982d2fbb39c6f4ca44d8909aece66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Win 1.shadergraph using Guid(a6982d2fbb39c6f4ca44d8909aece66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60664c023242a10a65e3d6bfe042e601') in 0.004530 seconds 
+  Import took 0.009802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.450707 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6aecd5e7614a872affc6ddc145acc4') in 0.002260 seconds 
+  Import took 0.012896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002857 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6aecd5e7614a872affc6ddc145acc4') in 0.002419 seconds 
+  Import took 0.007134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.727290 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb81d767b0237817d723e37f59618e18') in 0.002664 seconds 
+  Import took 0.007791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.697771 seconds.
+  path: Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Clone_CrashClash/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65215f1fc56b7cf330bce6b8b628dc5') in 0.002333 seconds 
+  Import took 0.006410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1530.380595 seconds.
+  path: Assets/Art/shader/Hoang_Train.shader
+  artifactKey: Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Hoang_Train.shader using Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8d177213eecb3d5e9096776e045f25') in 0.002735 seconds 
+  Import took 0.007572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 784.887948 seconds.
+  path: Assets/Art/shader/Hoang_Train.shader
+  artifactKey: Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Hoang_Train.shader using Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a4f431b90fe5a53bbf0e7d77ed32d5') in 0.002590 seconds 
+  Import took 0.007149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.692566 seconds.
+  path: Assets/Art/shader/Hoang_Texture vs CUBEmap.shader
+  artifactKey: Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Hoang_Texture vs CUBEmap.shader using Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414e1bd800e144263d468658708e1bcc') in 0.003181 seconds 
+  Import took 0.007268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.853201 seconds.
+  path: Assets/Art/shader/Hoang_Shader1.shader
+  artifactKey: Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Hoang_Shader1.shader using Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee4a160326a20f82490775ff32a5b7c') in 0.002681 seconds 
+  Import took 0.006875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.487189 seconds.
+  path: Assets/Art/shader/Hoang_OnlyColors.shader
+  artifactKey: Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Hoang_OnlyColors.shader using Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4c007847462930c3525b0395c39376') in 0.003130 seconds 
+  Import took 0.007350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.749519 seconds.
+  path: Assets/Art/shader/test shader.shader
+  artifactKey: Guid(2d43c29135568bb449a84f5d8b3d0957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/test shader.shader using Guid(2d43c29135568bb449a84f5d8b3d0957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752bab7488927230c2185bbfb6a34b76') in 0.004440 seconds 
+  Import took 0.009844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.311647 seconds.
+  path: Assets/Art/shader/Color+EmiColor.shader
+  artifactKey: Guid(2d43c29135568bb449a84f5d8b3d0957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Color+EmiColor.shader using Guid(2d43c29135568bb449a84f5d8b3d0957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98bf1a1ff5816c5e5f3bcaafc6ec2cb') in 0.002953 seconds 
+  Import took 0.007967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.641488 seconds.
+  path: Assets/Art/shader/Hoang_OnlyColors.shader
+  artifactKey: Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Hoang_OnlyColors.shader using Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050991104acb85aec7f85a2b1a2b8e79') in 0.003284 seconds 
+  Import took 0.008514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.728639 seconds.
+  path: Assets/Art/shader/Color+EmiColor+NormalColor.shader
+  artifactKey: Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Color+EmiColor+NormalColor.shader using Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5759da58d222cf14610745cc73c32f39') in 0.003521 seconds 
+  Import took 0.009277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.171330 seconds.
+  path: Assets/Art/shader/Hoang_Texture vs CUBEmap.shader
+  artifactKey: Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Hoang_Texture vs CUBEmap.shader using Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc9241699cca982ad3c45fcd7c35d64') in 0.003517 seconds 
+  Import took 0.012235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.515513 seconds.
+  path: Assets/Art/shader/Color+Texture-Range+Cubemap-Range.shader
+  artifactKey: Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Color+Texture-Range+Cubemap-Range.shader using Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee6f47aff4ad8145cd1888c9f475b48') in 0.003352 seconds 
+  Import took 0.009322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.097867 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Basic Shader/Color+EmiColor+NormalColor.shader
+  artifactKey: Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Basic Shader/Color+EmiColor+NormalColor.shader using Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2194d84c16b569db46771ce0a71c9100') in 0.003190 seconds 
+  Import took 0.007963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.602835 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Basic Shader/Color+EmiColor.shader
+  artifactKey: Guid(2d43c29135568bb449a84f5d8b3d0957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Basic Shader/Color+EmiColor.shader using Guid(2d43c29135568bb449a84f5d8b3d0957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f00bb6c74fb941a1704afa0ceefc17') in 0.003127 seconds 
+  Import took 0.008998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.782632 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Basic Shader/Color+Texture-Range+Cubemap-Range.shader
+  artifactKey: Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Basic Shader/Color+Texture-Range+Cubemap-Range.shader using Guid(c75c87c5230f6d942877eeb63fabda56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fea82105299d84136b75e96574ab3f9') in 0.003014 seconds 
+  Import took 0.008588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.420056 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Basic Shader/Udemy_Challenge1
+  artifactKey: Guid(05e32f4b7a7e63940ae0826c20ec62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Basic Shader/Udemy_Challenge1 using Guid(05e32f4b7a7e63940ae0826c20ec62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f51d5d25cddb5cb2a8194427a71987') in 0.002639 seconds 
+  Import took 0.007284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.035081 seconds.
+  path: Assets/Art/shader/Udemy_Excercises/Basic Shader/Udemy_Challenge
+  artifactKey: Guid(05e32f4b7a7e63940ae0826c20ec62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Udemy_Excercises/Basic Shader/Udemy_Challenge using Guid(05e32f4b7a7e63940ae0826c20ec62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff362b39f0c3ce2031a64dd853dbe47') in 0.004978 seconds 
+  Import took 0.010634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.732520 seconds.
+  path: Assets/Art/shader/Hoang_Shader_Practise
+  artifactKey: Guid(1de1e9413ce3dab4baebe9d26dc4e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/shader/Hoang_Shader_Practise using Guid(1de1e9413ce3dab4baebe9d26dc4e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ccd6f57f445b18c6a3632b4e23ad74') in 0.002781 seconds 
+  Import took 0.007653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.110965 seconds.
+  path: Assets/Art/Model
+  artifactKey: Guid(f7962c34673537045b60c1a4d0bc5cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Model using Guid(f7962c34673537045b60c1a4d0bc5cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f591d55adeded865871c3403ccd1611') in 0.003824 seconds 
+  Import took 0.010070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.800346 seconds.
+  path: Assets/Art/Models
+  artifactKey: Guid(f7962c34673537045b60c1a4d0bc5cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models using Guid(f7962c34673537045b60c1a4d0bc5cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c965352ec447b51bcda6e94d31dc6441') in 0.002961 seconds 
+  Import took 0.008106 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.6 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2741.
+Total: 4.208400 ms (FindLiveObjects: 0.346900 ms CreateObjectMapping: 0.201800 ms MarkObjects: 2.349300 ms  DeleteObjects: 1.309500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 103.120023 seconds.
+  path: Assets/Art/Learning_Shader
+  artifactKey: Guid(c3589569eb5425c4093af6182f43def9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader using Guid(c3589569eb5425c4093af6182f43def9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f477e94b9f23b260019b830024ad62a6') in 0.008552 seconds 
+  Import took 0.014710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.435977 seconds.
+  path: Assets/Art/Learning_Shader/Remake_CrashClash
+  artifactKey: Guid(4064ea6660fc1d84b8deacf09df3d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Remake_CrashClash using Guid(4064ea6660fc1d84b8deacf09df3d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c893706a7cad270b2247d5cf7f8a296') in 0.002913 seconds 
+  Import took 0.008135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.070768 seconds.
+  path: Assets/Art/Learning_Shader/CrashClash_ShaderRemake
+  artifactKey: Guid(4064ea6660fc1d84b8deacf09df3d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/CrashClash_ShaderRemake using Guid(4064ea6660fc1d84b8deacf09df3d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b199c4d4772744ecc99c9067bccba15') in 0.002713 seconds 
+  Import took 0.008655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.782355 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise
+  artifactKey: Guid(1de1e9413ce3dab4baebe9d26dc4e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise using Guid(1de1e9413ce3dab4baebe9d26dc4e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dee1b2e8aa0f9b0f68d170d1678cf0') in 0.002609 seconds 
+  Import took 0.007454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.575722 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Light Illumination Shader/Surface_BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Light Illumination Shader/Surface_BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33027c71094a0a0c8877c6ade939497') in 0.026268 seconds 
+  Import took 0.032989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.542340 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Light Illumination Shader/Surface_BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Light Illumination Shader/Surface_BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dfb08e6ce6e6eeab525f56cc606ef2') in 0.004246 seconds 
+  Import took 0.009051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.086579 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Light Illumination Shader/Surface_BasicBlinn.shader
+  artifactKey: Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Light Illumination Shader/Surface_BasicBlinn.shader using Guid(3748c6e9b9cf8c842931db1ff8c7935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe043fe78fac0cfc6137a06c0c35c48') in 0.004849 seconds 
+  Import took 0.011313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 365.891004 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Color+Texture-Range+Cubemap-Range 1.shader
+  artifactKey: Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Color+Texture-Range+Cubemap-Range 1.shader using Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132302144479c5d80f2ae0ee32265f37') in 0.006215 seconds 
+  Import took 0.013161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.284902 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Color+Texture-Range+Cubemap-Range 1.shader
+  artifactKey: Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Color+Texture-Range+Cubemap-Range 1.shader using Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871e2399940da01f6aca4049fbc88284') in 0.007176 seconds 
+  Import took 0.015298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.525687 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Color+Texture-Range+Cubemap-Range 1.shader
+  artifactKey: Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Color+Texture-Range+Cubemap-Range 1.shader using Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60a66e0ffa65a6c7df57c1ce834d301') in 0.004791 seconds 
+  Import took 0.014960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000716 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Color+Texture-Range+Cubemap-Range 1.shader
+  artifactKey: Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Color+Texture-Range+Cubemap-Range 1.shader using Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60a66e0ffa65a6c7df57c1ce834d301') in 0.004390 seconds 
+  Import took 0.009197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.910120 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Texture-Range+Cubemap-Range 1.shader
+  artifactKey: Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Texture-Range+Cubemap-Range 1.shader using Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd6ea7903e3f94ba712478c4cafd57b') in 0.004958 seconds 
+  Import took 0.010580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.277085 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Texture-Range+Cubemap-Range.shader
+  artifactKey: Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Texture-Range+Cubemap-Range.shader using Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fd2c3c30820c14208e2df3601b8d4b') in 0.004888 seconds 
+  Import took 0.010400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.026641 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Texture-Range+Cubemap-Range.shader
+  artifactKey: Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Basic Shader/Texture-Range+Cubemap-Range.shader using Guid(dbbf9253d5abfec45a931db47ca08a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deffab36a16ee43e73d0dced536073cc') in 0.005027 seconds 
+  Import took 0.011476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 627.338261 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess
+  artifactKey: Guid(5ef3473d88c53aa409019b2f31e23e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess using Guid(5ef3473d88c53aa409019b2f31e23e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124ba6614a99ff4202c94a61f84b7281') in 0.003442 seconds 
+  Import took 0.013605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.081642 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader
+  artifactKey: Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader using Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c6b22ec9f684cda0b6557b717825af') in 0.006323 seconds 
+  Import took 0.012958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.061092 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader
+  artifactKey: Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader using Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8f224e71e65ae9ed1ac129b979d7c3') in 0.004933 seconds 
+  Import took 0.011577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.770694 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader
+  artifactKey: Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader using Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6757b4fa882a3cc1fba3cc0724ed263c') in 0.005134 seconds 
+  Import took 0.011289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3436.665679 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader
+  artifactKey: Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader using Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b6014d8c5e7cad2d9aa929b2cab1a3') in 0.005097 seconds 
+  Import took 0.010545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.285847 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader
+  artifactKey: Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader using Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb2448ff8ca3b0872fa945597d4628a') in 0.005458 seconds 
+  Import took 0.012049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.839986 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader
+  artifactKey: Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader using Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba10f41a29bbebab71c9425630e86521') in 0.004230 seconds 
+  Import took 0.009121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.898993 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader
+  artifactKey: Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader using Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a7d40cba2c966fd8b12bdb4d57a337') in 0.004722 seconds 
+  Import took 0.012097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.148199 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader
+  artifactKey: Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader using Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadc0c64a1f58f46cd76f7129073de95') in 0.004461 seconds 
+  Import took 0.009005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.358955 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader
+  artifactKey: Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader using Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5945da85df09b5bcf686b5dbae110d') in 0.006450 seconds 
+  Import took 0.013124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.729096 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader
+  artifactKey: Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Draft_InProgess/Test_2710_1610.shader using Guid(120246c8a3f8e8745a2ee6f1632975ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f6a9600edb0e1733f93d14c731b2e0') in 0.004792 seconds 
+  Import took 0.010677 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007977 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.045 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2243 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2744.
+Total: 4.407900 ms (FindLiveObjects: 0.218200 ms CreateObjectMapping: 0.130500 ms MarkObjects: 2.124700 ms  DeleteObjects: 1.933700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
