@@ -1,0 +1,453 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16258 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GitHub/Shader_TestLab
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61248
+Successfully changed project path to: D:/GitHub/Shader_TestLab
+D:/GitHub/Shader_TestLab
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Shader_TestLab/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001932 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.114 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003261 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2260 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.2 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2701.
+Total: 2.522900 ms (FindLiveObjects: 0.228100 ms CreateObjectMapping: 0.084600 ms MarkObjects: 2.062100 ms  DeleteObjects: 0.147200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/New Folder
+  artifactKey: Guid(8eb929535e1b79241a73f772a293ed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/New Folder using Guid(8eb929535e1b79241a73f772a293ed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352adf7c14990df6a5cf64d898c1c093') in 0.004659 seconds 
+  Import took 0.018543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.296189 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Standard
+  artifactKey: Guid(8eb929535e1b79241a73f772a293ed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Standard using Guid(8eb929535e1b79241a73f772a293ed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186361d1b03c8fa5a174b5f3d7cb264c') in 0.001759 seconds 
+  Import took 0.027566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.430258 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/04-Light Illumination Shader
+  artifactKey: Guid(e5d10e637de331a448fabafc845e0754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/04-Light Illumination Shader using Guid(e5d10e637de331a448fabafc845e0754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913b72ddf0b4be560b118bc635be82e1') in 0.002201 seconds 
+  Import took 0.017027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.662794 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader
+  artifactKey: Guid(8eb929535e1b79241a73f772a293ed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader using Guid(8eb929535e1b79241a73f772a293ed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a710cceee5618e12c76c11ba96610dc4') in 0.002972 seconds 
+  Import took 0.016442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.663608 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader
+  artifactKey: Guid(d9727795be3d2b449b0ceecedc9c7f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader using Guid(d9727795be3d2b449b0ceecedc9c7f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae68e5e54eab7ad2b320157c4c9ea940') in 0.002176 seconds 
+  Import took 0.015077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.744398 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/02-Light Illumination Shader
+  artifactKey: Guid(e5d10e637de331a448fabafc845e0754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/02-Light Illumination Shader using Guid(e5d10e637de331a448fabafc845e0754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c9ebac425b7af8692101ef6f9d73bf') in 0.001788 seconds 
+  Import took 0.006038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.556439 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/NewSurfaceShader.shader
+  artifactKey: Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/NewSurfaceShader.shader using Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39732df90bdccea786e6e4649ce9f3b7') in 0.037509 seconds 
+  Import took 0.043564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.039731 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0821eabbe7821ee5e7bd0b4c466a4daf') in 0.004152 seconds 
+  Import took 0.009593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.584676 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0e2595dd3556ebd7fd24f6ebeb7dac') in 0.004395 seconds 
+  Import took 0.019232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003964 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0e2595dd3556ebd7fd24f6ebeb7dac') in 0.003994 seconds 
+  Import took 0.009438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1011.108544 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908527a2f2f21298881d9aa399f0c88d') in 0.002242 seconds 
+  Import took 0.012627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.095145 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular2.shader
+  artifactKey: Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular2.shader using Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9971c97d0f8fa92f4d71e4380aad24c9') in 0.003770 seconds 
+  Import took 0.014332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.679149 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ea0b7c43e1d68f51be7092063b0abc') in 0.002111 seconds 
+  Import took 0.007408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.684630 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader
+  artifactKey: Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader using Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f9196f0d80a36b49f6813a5652f26c') in 0.003405 seconds 
+  Import took 0.007966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.678971 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18797719b4fa23a8b55eb51267ab6bb') in 0.002394 seconds 
+  Import took 0.009281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.750323 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b873bef5bffa8f36820b9130ca188d5') in 0.002432 seconds 
+  Import took 0.006930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.101540 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edaf81e40151a7af27d550a0396ecc8') in 0.003033 seconds 
+  Import took 0.008610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.354390 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3847ac8e2d1210ec4eb86155b6a359') in 0.002987 seconds 
+  Import took 0.008390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.511454 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f6f27e7e46c622d49d41305fbd2215') in 0.003526 seconds 
+  Import took 0.007975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.967406 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76388ff6e1d5223a7a18f821cf7752d6') in 0.003168 seconds 
+  Import took 0.008816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.794657 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978b84eb9c5b701e36c618273f27adc4') in 0.002813 seconds 
+  Import took 0.012464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.526346 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1982a543e918cb5483d5e51507e4990b') in 0.003434 seconds 
+  Import took 0.009333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.120062 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b22999e23b985e772ebf1a8737e8e3') in 0.003385 seconds 
+  Import took 0.017803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.637849 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6079b55cc2e03301700e9ad6b24e406d') in 0.003239 seconds 
+  Import took 0.017852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.475232 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588484cc33c4c0971dd04fff26479e6d') in 0.004386 seconds 
+  Import took 0.009240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.667128 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621b9bc8cddb66c1c8fefcd9113c06c2') in 0.003315 seconds 
+  Import took 0.007825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.327777 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb9f421d0cdbef80383f992b92ece0e') in 0.004955 seconds 
+  Import took 0.011469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.927894 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e29e4da6cfcbf1b4ba105bb5354b289') in 0.005203 seconds 
+  Import took 0.011998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1390.917426 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader
+  artifactKey: Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader using Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34d7e2311b0dc56d06516612d53f925') in 0.004324 seconds 
+  Import took 0.010163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.209189 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader
+  artifactKey: Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader using Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38559e77db2f4209ab692fd1b536262') in 0.003459 seconds 
+  Import took 0.026325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.616407 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader
+  artifactKey: Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader using Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff04c2b6a4033b3eb17c0b74d4c242a') in 0.003005 seconds 
+  Import took 0.008098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17848.604468 seconds.
+  path: Assets/Art/Learning_Shader/CrashClash_ShaderRemake/SHD_Collect.shader
+  artifactKey: Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/CrashClash_ShaderRemake/SHD_Collect.shader using Guid(169412302b7100d45890ec227f43a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e14e7c355c6d85f9b9eebac1b59a2e') in 0.058666 seconds 
+  Import took 0.168927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 784.811368 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf577c0074356392e17cec28136513f') in 0.010599 seconds 
+  Import took 0.027953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.532478 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader
+  artifactKey: Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic.shader using Guid(ed3ff1cdeff469340ba837700ceec8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26f003fa1625671031c3a7b562aec78') in 0.005579 seconds 
+  Import took 0.011178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.940448 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader
+  artifactKey: Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader using Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f66b3945a5add7b7a22638c2c08089f') in 0.003799 seconds 
+  Import took 0.022537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.633804 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader
+  artifactKey: Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader using Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02543061ba7aea55d4439e9a290d74e7') in 0.003354 seconds 
+  Import took 0.008710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 564.779622 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/Car_SUV_Hummer_HX_occ.tga
+  artifactKey: Guid(dda4b5c391b8de44dbe268ca10615075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/Car_SUV_Hummer_HX_occ.tga using Guid(dda4b5c391b8de44dbe268ca10615075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daacd8d4bf21975761f5c0fc05670ac7') in 0.341925 seconds 
+  Import took 0.346608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.041017 seconds.
+  path: Assets/Art/Learning_Shader/Textures/metallic.tga
+  artifactKey: Guid(dda4b5c391b8de44dbe268ca10615075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Textures/metallic.tga using Guid(dda4b5c391b8de44dbe268ca10615075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21746b31fff77f4ba82fc6740666dd70') in 0.016164 seconds 
+  Import took 0.021054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.396854 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader
+  artifactKey: Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader using Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd926fd1927397f1bda7918361f34ed4') in 0.009163 seconds 
+  Import took 0.013091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.162599 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader
+  artifactKey: Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader using Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2498c5328123e996ed042d61b2acae2') in 0.003211 seconds 
+  Import took 0.007804 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.056224 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2706.
+Total: 6.366900 ms (FindLiveObjects: 0.515800 ms CreateObjectMapping: 0.085300 ms MarkObjects: 4.997000 ms  DeleteObjects: 0.767700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29943.081495 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader
+  artifactKey: Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader using Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1cee46d68f65f1490f6a0118b1a47c') in 0.034656 seconds 
+  Import took 0.044823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.738802 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader
+  artifactKey: Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader using Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de304076ef722b6e0747d37a1523886') in 0.004135 seconds 
+  Import took 0.009477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031236 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader
+  artifactKey: Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Specular.shader using Guid(21a29d1414685ea488953e7d2c542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de304076ef722b6e0747d37a1523886') in 0.004743 seconds 
+  Import took 0.009839 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
