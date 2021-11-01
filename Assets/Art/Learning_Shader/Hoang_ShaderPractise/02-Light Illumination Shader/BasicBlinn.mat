@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BasicBlinn
-  m_Shader: {fileID: 4800000, guid: 3748c6e9b9cf8c842931db1ff8c7935b, type: 3}
+  m_Shader: {fileID: 4800000, guid: 169412302b7100d45890ec227f43a5a7, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -74,12 +74,16 @@ Material:
     - _Specular: 0.111
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TexRange: 0.89
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.21905372, b: 0, a: 1}
+    - _Color: {r: 1, g: 0, b: 0.03518915, a: 1}
+    - _Color1: {r: 0.50782716, g: 1, b: 0, a: 1}
     - _Color2: {r: 1, g: 1, b: 1, a: 1}
     - _Colour: {r: 1, g: 0, b: 0, a: 1}
+    - _Emission: {r: 1, g: 0, b: 0.34043407, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Emissive: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 1, g: 0.9070784, b: 0, a: 1}
   m_BuildTextureStacks: []

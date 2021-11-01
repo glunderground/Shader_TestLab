@@ -84,7 +84,7 @@ Material:
     - _ZWrite: 1
     - _hCubeRange: 1.4
     - _hFloat: 0.5
-    - _hTexRange: 3.39
+    - _hTexRange: 1.68
     m_Colors:
     - _Color: {r: 0.990566, g: 0.014017418, b: 0.014017418, a: 1}
     - _Color1: {r: 1, g: 0.89451474, b: 0, a: 1}
