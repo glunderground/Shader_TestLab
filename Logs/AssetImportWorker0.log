@@ -15,11 +15,11 @@ D:/GitHub/Shader_TestLab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53013
+63788
 Successfully changed project path to: D:/GitHub/Shader_TestLab
 D:/GitHub/Shader_TestLab
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001874 seconds.
+Registered in 0.001978 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.147 seconds
+- Completed reload, in  1.109 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003404 seconds.
+Registered in 0.002826 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.159 seconds
+- Completed reload, in  1.103 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2266 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.5 MB.
-System memory in use after: 100.5 MB.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.3 MB.
+System memory in use after: 111.4 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2707.
-Total: 3.848400 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.095600 ms MarkObjects: 3.254600 ms  DeleteObjects: 0.167900 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2727.
+Total: 3.056400 ms (FindLiveObjects: 0.326400 ms CreateObjectMapping: 0.223600 ms MarkObjects: 2.331500 ms  DeleteObjects: 0.173800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,561 +79,193 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor.shader
-  artifactKey: Guid(2d43c29135568bb449a84f5d8b3d0957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor.shader using Guid(2d43c29135568bb449a84f5d8b3d0957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71810f28704b28eb067ddc9b8291d1fd') in 0.035355 seconds 
-  Import took 0.046652 seconds .
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e789742b0e9e12fd0f9f03fc39245b') in 0.044773 seconds 
+  Import took 0.055499 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader
-  artifactKey: Guid(d9727795be3d2b449b0ceecedc9c7f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader using Guid(d9727795be3d2b449b0ceecedc9c7f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03612cb8a3a9ba95cf8bc49f8e8f9bc0') in 0.001494 seconds 
-  Import took 0.013798 seconds .
+  Time since last request: 497.130579 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec90126dcfd2fab980161a75e282d1c') in 0.001939 seconds 
+  Import took 0.009289 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.370656 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor.shader
-  artifactKey: Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor.shader using Guid(9c87e5db884df6244aa68a4f92cb88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89eae84d5c92690dd0d1ccaba614e977') in 0.002537 seconds 
-  Import took 0.013789 seconds .
+  Time since last request: 92.008468 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87b3e0dcd805446172cf3a36593928d') in 0.002523 seconds 
+  Import took 0.022215 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.342859 seconds.
-  path: Assets/Art/Learning_Shader/Textures/rock1_alb.jpg
-  artifactKey: Guid(a699efb57ee51ab41909c42db1c9b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Textures/rock1_alb.jpg using Guid(a699efb57ee51ab41909c42db1c9b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf5b04d7c9d3556566009fb74cda403') in 0.109542 seconds 
-  Import took 0.114432 seconds .
+  Time since last request: 29.617366 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6deedf8baf558177b2678392e3c51b') in 0.002156 seconds 
+  Import took 0.020167 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Art/Learning_Shader/Textures/rock1_nrm.png
-  artifactKey: Guid(76f7e3380b607f849a6a51be1c954599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Textures/rock1_nrm.png using Guid(76f7e3380b607f849a6a51be1c954599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c5649328b1068164640ab138cf1dfe') in 0.044901 seconds 
-  Import took 0.049548 seconds .
+  Time since last request: 180.454889 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e838c643f876806988762991fdc418') in 0.001602 seconds 
+  Import took 0.006372 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Art/Learning_Shader/Textures/rock1_alb.jpg
-  artifactKey: Guid(a699efb57ee51ab41909c42db1c9b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Textures/rock1_alb.jpg using Guid(a699efb57ee51ab41909c42db1c9b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf5b04d7c9d3556566009fb74cda403') in 0.013308 seconds 
-  Import took 0.018017 seconds .
+  Time since last request: 29.130888 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee67d7e892b28204844553a7a90acda') in 0.002547 seconds 
+  Import took 0.025438 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Art/Learning_Shader/Textures/rock1_nrm.png
-  artifactKey: Guid(76f7e3380b607f849a6a51be1c954599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Textures/rock1_nrm.png using Guid(76f7e3380b607f849a6a51be1c954599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c5649328b1068164640ab138cf1dfe') in 0.009498 seconds 
-  Import took 0.013055 seconds .
+  Time since last request: 0.009050 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee67d7e892b28204844553a7a90acda') in 0.001489 seconds 
+  Import took 0.005673 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.846157 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/02-Light Illumination Shader/Diffuse + Bump.shader
-  artifactKey: Guid(c94b7ef0148e3bc4ead893666d819dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/02-Light Illumination Shader/Diffuse + Bump.shader using Guid(c94b7ef0148e3bc4ead893666d819dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30afe527ada42da6575dde822f0c68bd') in 0.001917 seconds 
-  Import took 0.016966 seconds .
+  Time since last request: 16470.379556 seconds.
+  path: Assets/Art/Learning_Shader/CrashClash_ShaderRemake/SHD_Ramp.shadergraph
+  artifactKey: Guid(62f1a79ed355deb45a7114ad4bcd0a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/CrashClash_ShaderRemake/SHD_Ramp.shadergraph using Guid(62f1a79ed355deb45a7114ad4bcd0a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3d6d83179d9662bcc122220e451a4d') in 0.019948 seconds 
+  Import took 0.225142 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.829851 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader
-  artifactKey: Guid(9d282b088418a5c44a92844e7d663bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader using Guid(9d282b088418a5c44a92844e7d663bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f21a71e922d22088774452ea2cb43f') in 0.002184 seconds 
-  Import took 0.007417 seconds .
+  Time since last request: 6878.153693 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355410a566d2d435e6c5f3184fb308f1') in 0.002246 seconds 
+  Import took 0.093927 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.622706 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR_Color+Diffuse+Normal+Metal+Rough 1.shader
-  artifactKey: Guid(6175d736ea07ee545be372ba83e045b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR_Color+Diffuse+Normal+Metal+Rough 1.shader using Guid(6175d736ea07ee545be372ba83e045b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9605114e23a39c2ab8afbe7c19cb55') in 0.002041 seconds 
-  Import took 0.006961 seconds .
+  Time since last request: 33.848603 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79105d55bd03e7526f1f797d5149cd3') in 0.001550 seconds 
+  Import took 0.006791 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.544591 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader
-  artifactKey: Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/05-PBR Shader/PBR Standard Metalic 1.shader using Guid(79a88ff00c3f9074199ae2b2154540d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fa699f962ec45b91b976c06c68f508') in 0.002020 seconds 
-  Import took 0.007626 seconds .
+  Time since last request: 0.059300 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79105d55bd03e7526f1f797d5149cd3') in 0.004338 seconds 
+  Import took 0.011215 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.438375 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/02-Light Illumination Shader/PBR Shader
-  artifactKey: Guid(8eb929535e1b79241a73f772a293ed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/02-Light Illumination Shader/PBR Shader using Guid(8eb929535e1b79241a73f772a293ed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56451d40bc7c94198c411d3ab63008c') in 0.001607 seconds 
-  Import took 0.005597 seconds .
+  Time since last request: 33.877413 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aadf79b839233de0553b20d38a3e987') in 0.001887 seconds 
+  Import took 0.020885 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.121168 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/02-Light Illumination Shader/02.1-PBR Shader
-  artifactKey: Guid(8eb929535e1b79241a73f772a293ed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/02-Light Illumination Shader/02.1-PBR Shader using Guid(8eb929535e1b79241a73f772a293ed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a452bb888ca4a6cf880634eeb6b0d94c') in 0.002543 seconds 
-  Import took 0.008177 seconds .
+  Time since last request: 0.039882 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aadf79b839233de0553b20d38a3e987') in 0.002292 seconds 
+  Import took 0.009428 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.674556 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/NewUnlitShader.shader
-  artifactKey: Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/NewUnlitShader.shader using Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9d84fa7ff12f9ab6d0f4ac1fe12d10') in 0.002694 seconds 
-  Import took 0.007771 seconds .
+  Time since last request: 83.053319 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18edacaa23eb8e86a32c0049b95284d') in 0.001837 seconds 
+  Import took 0.014037 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.855013 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/Results-Complex Shader
-  artifactKey: Guid(ab32adae0bb35db448b5a74c7652f890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/Results-Complex Shader using Guid(ab32adae0bb35db448b5a74c7652f890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6b385ddca3024664dec23e83a3d9b7') in 0.001904 seconds 
-  Import took 0.011296 seconds .
+  Time since last request: 0.042639 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18edacaa23eb8e86a32c0049b95284d') in 0.001860 seconds 
+  Import took 0.006481 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.596363 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader
-  artifactKey: Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader using Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232e8ed3f4058151a581577f2cc07260') in 0.002614 seconds 
-  Import took 0.007855 seconds .
+  Time since last request: 23.077126 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda7ae9426e66501c5d634b740045659') in 0.001720 seconds 
+  Import took 0.029658 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 330.205138 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader
-  artifactKey: Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader using Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5948d51bbff6112836b2d3986ef35232') in 0.005074 seconds 
-  Import took 0.086525 seconds .
+  Time since last request: 0.011247 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda7ae9426e66501c5d634b740045659') in 0.002040 seconds 
+  Import took 0.007420 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1884.215010 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight 1.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight 1.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161e8386b43cf3fd032ab17207903c33') in 0.005737 seconds 
-  Import took 0.011582 seconds .
+  Time since last request: 24.220612 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecf281ec5f5d97cce80000986e72f29') in 0.002558 seconds 
+  Import took 0.029686 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 146.209365 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight 1.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight 1.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4c0e3b2247bfd983516d6bcafecf20') in 0.003858 seconds 
-  Import took 0.009614 seconds .
+  Time since last request: 0.013713 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader
+  artifactKey: Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 1.shader using Guid(f21edeb6e280d4e44ba3f7980d9a46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecf281ec5f5d97cce80000986e72f29') in 0.001930 seconds 
+  Import took 0.007382 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.063394 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6facdd3e4cb10cfb008dd1741935119f') in 0.003962 seconds 
-  Import took 0.009649 seconds .
+  Time since last request: 34.793138 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 2.shader
+  artifactKey: Guid(681b40108527c3a439a9d4cc09ba3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 2.shader using Guid(681b40108527c3a439a9d4cc09ba3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3046d934b821321575bb12bafe0d0a67') in 0.012868 seconds 
+  Import took 0.050527 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.884156 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic 1.shader
-  artifactKey: Guid(ce81a06745471b44aadb73b43b736003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic 1.shader using Guid(ce81a06745471b44aadb73b43b736003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc716e3115faf338f82f37c96431d76') in 0.006438 seconds 
-  Import took 0.012297 seconds .
+  Time since last request: 50.673980 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 2.shader
+  artifactKey: Guid(681b40108527c3a439a9d4cc09ba3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Color+EmiColor+NormalColor 2.shader using Guid(681b40108527c3a439a9d4cc09ba3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbe8a721b3c90b2378433410266a87c') in 0.002086 seconds 
+  Import took 0.007282 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.543490 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Color.shader
-  artifactKey: Guid(ce81a06745471b44aadb73b43b736003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Color.shader using Guid(ce81a06745471b44aadb73b43b736003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8e6482f23b0252836e6d7270b89ef8') in 0.005959 seconds 
-  Import took 0.011971 seconds .
+  Time since last request: 6.878207 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/NewUnlitShader.shader
+  artifactKey: Guid(3890d63a3a78ee44fb4e29f8efc00ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/NewUnlitShader.shader using Guid(3890d63a3a78ee44fb4e29f8efc00ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27585654a69d178ab54c5147662ee54') in 0.002994 seconds 
+  Import took 0.029661 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 89.368039 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Color.shader
-  artifactKey: Guid(ce81a06745471b44aadb73b43b736003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Color.shader using Guid(ce81a06745471b44aadb73b43b736003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9595e32924c53f8c683d92a10888b415') in 0.003818 seconds 
-  Import took 0.008500 seconds .
+  Time since last request: 69.201095 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/NewUnlitShader.shader
+  artifactKey: Guid(3890d63a3a78ee44fb4e29f8efc00ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/NewUnlitShader.shader using Guid(3890d63a3a78ee44fb4e29f8efc00ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac415a2d89fa3fb62bbbdeef811d386') in 0.002038 seconds 
+  Import took 0.157233 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 163.875778 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Color 1.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Color 1.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7854d1085ba1d0a49c0a3fd4f83c66') in 0.004245 seconds 
-  Import took 0.021665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001066 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Color 1.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Color 1.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7854d1085ba1d0a49c0a3fd4f83c66') in 0.004550 seconds 
-  Import took 0.008906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.155575 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b545e5de45ce044c6613a004ca04fc') in 0.003569 seconds 
-  Import took 0.007842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 123.756585 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ad98dbcbbf6b55e9eac657c6ee3c90') in 0.004766 seconds 
-  Import took 0.021503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001290 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ad98dbcbbf6b55e9eac657c6ee3c90') in 0.004999 seconds 
-  Import took 0.010257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 281.122388 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/02-Light Illumination Shader/Surface_BasicLambert.shader
-  artifactKey: Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/02-Light Illumination Shader/Surface_BasicLambert.shader using Guid(c23f65dd1ecab4b45a8f5e2f45258047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5b1e1bbd40cb3655491f7301c73247') in 0.002428 seconds 
-  Import took 0.011577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.664241 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e380a7a36c06b8204b4c2972598c303') in 0.005048 seconds 
-  Import took 0.022614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001986 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e380a7a36c06b8204b4c2972598c303') in 0.003735 seconds 
-  Import took 0.008335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 146.799354 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119ccfe5dd117cb203ee6dc803c142b0') in 0.004263 seconds 
-  Import took 0.018710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 849.861135 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18280c2ce477f6d765192ce4aae434d1') in 0.003386 seconds 
-  Import took 0.009309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.994091 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0013692eae8f6ac04aa55bf7160fc0') in 0.005761 seconds 
-  Import took 0.012561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1018.073355 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258d41a59a1078d8e00378dcc5cbfca8') in 0.004162 seconds 
-  Import took 0.041921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 666.109692 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd1ade5073d963dbb8cef50f6560b7d') in 0.005206 seconds 
-  Import took 0.099229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.701097 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb7b2174fafabe4db2e7d07c607450e') in 0.005878 seconds 
-  Import took 0.020213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 333.892291 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f312d0f69c4c3f4f9756d028f3039a9') in 0.005316 seconds 
-  Import took 0.011365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.584697 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c91987bfb326a5d26268d230cfc4f7') in 0.005504 seconds 
-  Import took 0.012666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1560.198954 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af29de2eb073fd3d797c478b69e63087') in 0.003864 seconds 
-  Import took 0.009356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.246379 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0bf8264797326d1a32b85a6d5a0229') in 0.005366 seconds 
-  Import took 0.011408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.101744 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8445afdc10b61a204e00c3f7bbb17b') in 0.003683 seconds 
-  Import took 0.009266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.655073 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaae35d98727b63101241c1e97b9979c') in 0.004882 seconds 
-  Import took 0.011290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.429285 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c148311e7e1c1a288ecc02f8afd39b') in 0.003815 seconds 
-  Import took 0.008503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.100671 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612d1511a87bb80559ca99d8c8574b47') in 0.005763 seconds 
-  Import took 0.024261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.241701 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a69c8862cf274994a3bbde240e2b376') in 0.005389 seconds 
-  Import took 0.012962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.815003 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e497f4dc93ac6e296e3e51adcb40764d') in 0.006188 seconds 
-  Import took 0.017797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.246035 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2faaad2c9b7a1e49b16cccdaf5cf13') in 0.005007 seconds 
-  Import took 0.013980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.418383 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader
-  artifactKey: Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic+Texture.shader using Guid(68524bbe75295614d8f0dc9142d530e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd08aef638aeffc52b90f50b5f8112c') in 0.006087 seconds 
-  Import took 0.013655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 690.851715 seconds.
-  path: Assets/Tree_Textures
-  artifactKey: Guid(1a58dfa5e00c03a44a011a2894a451f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures using Guid(1a58dfa5e00c03a44a011a2894a451f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580a9ce3c49a574365cff2bd0798bd97') in 0.002110 seconds 
-  Import took 0.006764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.586039 seconds.
-  path: Assets/NEW/Heroes/Hero1.fbx
-  artifactKey: Guid(f175ede330b02ad44988de53c0ba11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NEW/Heroes/Hero1.fbx using Guid(f175ede330b02ad44988de53c0ba11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d68c3d5cca872eb59a5e8486ba37c1b') in 0.277850 seconds 
-  Import took 0.283624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.883889 seconds.
-  path: Assets/NEW
-  artifactKey: Guid(c6d765de46d8ec44dae11666259ae1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NEW using Guid(c6d765de46d8ec44dae11666259ae1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e65a7b77458df34c7421815c3e7664') in 0.002817 seconds 
-  Import took 0.089188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.328798 seconds.
-  path: Assets/NEW/Heroes
-  artifactKey: Guid(c638ca9c36c0eb647a5676a8d49a24d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NEW/Heroes using Guid(c638ca9c36c0eb647a5676a8d49a24d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb982f8686bf536ba570e59d1b292fd9') in 0.002079 seconds 
-  Import took 0.025657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.421119 seconds.
-  path: Assets/Art/Learning_Shader/Models/My_Heroes
-  artifactKey: Guid(c638ca9c36c0eb647a5676a8d49a24d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Models/My_Heroes using Guid(c638ca9c36c0eb647a5676a8d49a24d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2aeabcd9b7b5e5155b1e83fd7f35e3a') in 0.001509 seconds 
-  Import took 0.005190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 401.932008 seconds.
-  path: Assets/Art/Learning_Shader/Models/My_Heroes/Hero1.fbx
-  artifactKey: Guid(f175ede330b02ad44988de53c0ba11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Models/My_Heroes/Hero1.fbx using Guid(f175ede330b02ad44988de53c0ba11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a98152b49f08b366ffc60081e9bce0') in 0.070586 seconds 
-  Import took 0.077583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.253812 seconds.
-  path: Assets/Art/Learning_Shader/Models/My_Heroes/Char1_Viking_texture1.png
-  artifactKey: Guid(ac44a372431efcf47949eee250db7e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Models/My_Heroes/Char1_Viking_texture1.png using Guid(ac44a372431efcf47949eee250db7e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532386360e561f757e37a3bf07cddf71') in 0.009469 seconds 
-  Import took 0.013805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.380086 seconds.
-  path: Assets/Art/Learning_Shader/Models/My_Heroes/Materials/Char1_Viking_texture1c.tga
-  artifactKey: Guid(354e6023a23b17f4eaf446cc017fd1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Models/My_Heroes/Materials/Char1_Viking_texture1c.tga using Guid(354e6023a23b17f4eaf446cc017fd1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd8e3d6505f4ecf76d2dbd0bf405029') in 0.014246 seconds 
-  Import took 0.206090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.587414 seconds.
-  path: Assets/Art/Learning_Shader/Models/My_Heroes/Materials
-  artifactKey: Guid(fc06c987168f16045ad7a27a273fe3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Models/My_Heroes/Materials using Guid(fc06c987168f16045ad7a27a273fe3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e582387edf2684025470265394023308') in 0.001567 seconds 
-  Import took 0.005867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 539.081552 seconds.
-  path: Assets/Art/Learning_Shader/Textures/rock1_spl.png
-  artifactKey: Guid(8c3c49bcd1fae464ca6e2fc3022efadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Textures/rock1_spl.png using Guid(8c3c49bcd1fae464ca6e2fc3022efadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fc551dcf1e0de04dd96a6a56b874f5') in 0.024708 seconds 
-  Import took 0.048021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11402.397108 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader
-  artifactKey: Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader using Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ca0288c45c5bff4a00efcd6ff8bfeb') in 0.012266 seconds 
-  Import took 0.043475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.502695 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader
-  artifactKey: Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader using Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b6d65f79b7fc14fd78e70f8d790dbb') in 0.004008 seconds 
-  Import took 0.009915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.401226 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader
-  artifactKey: Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader using Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b65b4ac99ef3ce99d20c21385db306') in 0.003631 seconds 
-  Import took 0.009220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.075259 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader
-  artifactKey: Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader using Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5da98a3d833ed15bf8d682c18f48236') in 0.010087 seconds 
-  Import took 0.018709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1640.378600 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader
-  artifactKey: Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight.shader using Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a1550f3b50ba57682ec2de91afb757') in 0.003999 seconds 
-  Import took 0.009929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 168.802289 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader
-  artifactKey: Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight-Basic.shader using Guid(4ff8b8b2e36083c4795208ca3e015180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6250718b8bda4bbdf34bfce4903255b') in 0.004838 seconds 
-  Import took 0.011573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.761496 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight_Range.shader
-  artifactKey: Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight_Range.shader using Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f612a36d44fa5ae776d95d11f75880') in 0.005445 seconds 
-  Import took 0.011857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.684400 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight_Range.shader
-  artifactKey: Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight_Range.shader using Guid(5fc47880a2e27e74c9afc3afb8e35444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dac2fdcfea503add6f1ab708c1e1ee') in 0.005473 seconds 
-  Import took 0.012385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.207214 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight_Range 1.shader
-  artifactKey: Guid(7525a37f8fedba24aa3df73969a60daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight_Range 1.shader using Guid(7525a37f8fedba24aa3df73969a60daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102ab5cb57ba6c2d3098dbbf0e165f4b') in 0.007902 seconds 
-  Import took 0.013503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.264828 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight_Range+Outline.shader
-  artifactKey: Guid(7525a37f8fedba24aa3df73969a60daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight_Range+Outline.shader using Guid(7525a37f8fedba24aa3df73969a60daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd5f10c38159ac69880577019c0a3c8') in 0.004651 seconds 
-  Import took 0.016965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.574086 seconds.
-  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight_Range+Outline.shader
-  artifactKey: Guid(7525a37f8fedba24aa3df73969a60daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/03-Suface FX Shader/RimLight_Range+Outline.shader using Guid(7525a37f8fedba24aa3df73969a60daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a397a7c157f169816a75dfcb77ff09c') in 0.005456 seconds 
-  Import took 0.019596 seconds .
+  Time since last request: 11.581860 seconds.
+  path: Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Test_HLSL.shader
+  artifactKey: Guid(3890d63a3a78ee44fb4e29f8efc00ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Learning_Shader/Hoang_ShaderPractise/01-Basic Shader/Test_HLSL.shader using Guid(3890d63a3a78ee44fb4e29f8efc00ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f52b7acc2dc305a7a2229085132502') in 0.002339 seconds 
+  Import took 0.208004 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
